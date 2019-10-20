@@ -1,0 +1,24 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "stormamplifytest-dev-20190904113954-authRole",
+            "UnauthRoleArn": "arn:aws:iam::046437646358:role/stormamplifytest-dev-20190904113954-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::046437646358:role/stormamplifytest-dev-20190904113954-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "stormamplifytest-dev-20190904113954-deployment",
+            "UnauthRoleName": "stormamplifytest-dev-20190904113954-unauthRole",
+            "StackName": "stormamplifytest-dev-20190904113954",
+            "StackId": "arn:aws:cloudformation:us-east-2:046437646358:stack/stormamplifytest-dev-20190904113954/3db94980-cf2a-11e9-9d0c-02ba814fbd16"
+        },
+        "categories": {
+            "auth": {
+                "stormamplifytest3b148c34": {}
+            },
+            "function": {
+                "stormamplifytest63888c97": {},
+                "stormamplifytest8ed3acc3": {},
+                "stormFunction1": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "stormApi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authstormamplifytest3b148c34",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "stormamplifytest-dev-20190904113954-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/7b92098225f77efb69ffd614bad82af39fd372f7"
+}

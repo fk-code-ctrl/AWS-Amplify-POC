@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "stormApi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authstormamplifytest3b148c34",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
